@@ -5,3 +5,5 @@ http:
 
 frontend:
 
+cover: !include_dir_list covers
+camera: !include_dir_list cameras
