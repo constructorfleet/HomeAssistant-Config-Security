@@ -6,6 +6,8 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Security
 
+http:
+
 frontend:
 
 cover: !include_dir_list covers
