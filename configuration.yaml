@@ -10,6 +10,8 @@ http:
 
 frontend:
 
+view_event:
+
 cover: !include_dir_list covers
 camera: !include_dir_list cameras
 alarm_control_panel: !include_dir_list alarm_control_panels
