@@ -16,6 +16,8 @@ http:
 
 frontend:
 
+config:
+
 view_event:
 
 cover: !include_dir_list covers
