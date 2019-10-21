@@ -15,7 +15,7 @@ homeassistant:
     - type: homeassistant
 
 view_event:
-  name: security
+  instance_name: security
   components:
     - camera
     - cover
