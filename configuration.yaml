@@ -15,11 +15,10 @@ homeassistant:
     - type: homeassistant
 
 view_event:
+  name: security
   components:
     - camera
-    - media_player
-    - device_tracker
-    - person
+    - cover
 
 http:
   base_url: https://automation.prettybaked.com
@@ -28,10 +27,6 @@ http:
 frontend:
 
 config:
-
-view_event:
-  components:
-    - camera
 
 cover: !include_dir_list covers
 camera: !include_dir_list cameras
