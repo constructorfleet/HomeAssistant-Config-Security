@@ -1,4 +1,3 @@
-platform: myq
+platform: myq2
 username: !secret myq_username
 password: !secret myq_password
-type: chamberlain
