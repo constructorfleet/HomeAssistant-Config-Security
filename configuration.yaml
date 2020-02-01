@@ -14,12 +14,12 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: security
-  components:
-    - camera
-    - cover
-    - local
+# view_event:
+#   name: security
+#   components:
+#     - camera
+#     - cover
+#     - local
 
 http:
   base_url: https://automation.prettybaked.com
