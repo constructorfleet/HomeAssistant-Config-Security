@@ -22,7 +22,7 @@ homeassistant:
 #     - local
 
 http:
-#  base_url: https://automation.prettybaked.com
+  base_url: http://security.constructorfleet.iot:3000
 #  server_port: !secret security_server_public_port
   
 frontend:
