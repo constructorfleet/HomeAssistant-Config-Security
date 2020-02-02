@@ -22,8 +22,8 @@ homeassistant:
 #     - local
 
 http:
-  base_url: https://automation.prettybaked.com
-  server_port: !secret security_server_public_port
+#  base_url: https://automation.prettybaked.com
+#  server_port: !secret security_server_public_port
   
 frontend:
 
@@ -34,5 +34,5 @@ camera: !include_dir_list cameras
 alarm_control_panel: !include_dir_list alarm_control_panels
 
 mqtt: !include mqtt.yaml
-# mqtteventstream: !include eventstream.yaml
-mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
+mqtteventstream: !include eventstream.yaml
+# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
