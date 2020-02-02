@@ -22,6 +22,7 @@ homeassistant:
 #     - local
 
 http:
+  base_url: http://security.constructorfleet.iot
   
 frontend:
 
