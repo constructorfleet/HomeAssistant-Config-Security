@@ -34,4 +34,5 @@ camera: !include_dir_list cameras
 alarm_control_panel: !include_dir_list alarm_control_panels
 
 mqtt: !include mqtt.yaml
-mqtteventstream: !include eventstream.yaml
+# mqtteventstream: !include eventstream.yaml
+mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
