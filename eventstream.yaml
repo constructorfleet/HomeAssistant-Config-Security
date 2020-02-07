@@ -1,7 +1,6 @@
 name: security
 publish_topic: events/slaves/security
 subscribe_topic: events/master
-state_topic: states
 ignore_event:
   - call_service
   - component_loaded
