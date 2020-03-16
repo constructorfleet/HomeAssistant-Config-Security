@@ -1,0 +1,8 @@
+components:
+  - camera
+  - cover
+  - local
+  - lock
+  - stream
+  - alarm_control_panel
+  - webhook

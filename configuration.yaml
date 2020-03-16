@@ -14,12 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-# view_event:
-#   name: security
-#   components:
-#     - camera
-#     - cover
-#     - local
+view_event: !include view_event.yaml
 
 http:
   base_url: https://security.automation.home.prettybaked.com
@@ -36,4 +31,3 @@ alarm_control_panel: !include_dir_list alarm_control_panels
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
