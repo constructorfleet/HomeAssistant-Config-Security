@@ -1,2 +1,21 @@
 broker: mqtt
-client_id: securitty
+client_id: security
+birth_message:
+  topic: events/slaves/security/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.connected"
+      "event_data": "security"
+    }
+will_message:
+  birth_message:
+  topic: events/slaves/security/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.disconnected"
+      "event_data": "security"
+    }
