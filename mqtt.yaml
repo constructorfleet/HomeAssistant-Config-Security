@@ -10,7 +10,6 @@ birth_message:
       "event_data": "security"
     }
 will_message:
-  birth_message:
   topic: events/slaves/security/instance_state
   qos: 1
   retain: true
