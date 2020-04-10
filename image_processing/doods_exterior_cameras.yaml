@@ -9,6 +9,7 @@ source:
   - entity_id: camera.front_driveway
   - entity_id: camera.back_gate
   - entity_id: camera.back_yard_west
+  - entity_id: camera.indoor_entry
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
