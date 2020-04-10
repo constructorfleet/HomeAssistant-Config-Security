@@ -1,6 +1,6 @@
 platform: doods
 scan_interval: 10001
-url: http://:8080
+url: http://automation_obj_detection:8080
 timeout: 60
 detector: default
 source:
