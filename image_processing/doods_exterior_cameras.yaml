@@ -1,12 +1,12 @@
 platform: doods
 scan_interval: 10001
 url: http://automation_obj_detection:8080
+scan_interval: 900
 timeout: 60
 detector: default
 source:
   - entity_id: camera.front_yard
   - entity_id: camera.front_driveway
-  - entity_id: camera.front_door
   - entity_id: camera.back_gate
   - entity_id: camera.back_yard_west
 file_out:
