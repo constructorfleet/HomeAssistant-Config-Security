@@ -1,6 +1,6 @@
 platform: doods
 scan_interval: 10001
-url: http://automation_camera-monitoring/detect
+url: http://automation_obj_detectio/detect
 timeout: 60
 detector: default
 source:
