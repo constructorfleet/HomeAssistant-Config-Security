@@ -10,15 +10,14 @@ source:
   - entity_id: camera.front_yard
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
-  # - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
 confidence: 50
 labels:
   - name: person
     confidence: 70
   - name: car
-    confidence: 90
+    confidence: 80
   - name: truck
-    confidence: 90
+    confidence: 80
   - name: dog
     confidence: 80
   - name: cat
