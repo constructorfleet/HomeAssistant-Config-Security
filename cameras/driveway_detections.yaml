@@ -1,0 +1,3 @@
+platform: local_file
+name: Driveway Detections
+file_path: '/config/www/camera_snapshot/front_driveway_latest.jpg'
