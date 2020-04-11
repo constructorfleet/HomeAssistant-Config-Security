@@ -2,7 +2,7 @@ platform: doods
 url: http://automation_obj_detection:8080
 scan_interval: 10
 timeout: 60
-detector: default
+detector: edgetpu
 source:
   - entity_id: camera.back_gate
   - entity_id: camera.back_yard_west
