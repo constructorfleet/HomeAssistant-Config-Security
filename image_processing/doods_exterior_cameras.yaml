@@ -1,18 +1,25 @@
 platform: doods
 url: http://automation_obj_detection:8080
-scan_interval: 900
+scan_interval: 10
 timeout: 60
 detector: default
 source:
-  - entity_id: camera.indoor_entry
+  - entity_id: camera.back_gate
+  - entity_id: camera.back_yard_west
+  - entity_id: camera.front_driveway
+  - entity_id: camera.front_yard
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
-  - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+  # - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
 confidence: 50
 labels:
   - name: person
     confidence: 70
-  - car
-  - truck
-  - dog
-  - cat
+  - name: car
+    confidence: 90
+  - name: truck
+    confidence: 90
+  - name: dog
+    confidence: 80
+  - name: cat
+    confidence: 70
