@@ -1,3 +1,3 @@
-platform: local_file
+platform: generic
 name: Front Yard Detections
-file_path: '/config/www/camera_snapshot/front_yard_latest.jpg'
+still_image_url: '/config/www/camera_snapshot/front_yard_latest.jpg'
