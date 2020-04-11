@@ -1,0 +1,8 @@
+image_processing.doods_back_gate:
+  friendly_name: Back Gate Detections
+image_processing.doods_back_yard_west:
+  friendly_name: Back Yard Detections
+image_processing.doods_front_yard:
+  friendly_name: Front Yard Detections
+image_processing.doods_front_driveway:
+  friendly_name: Driveway Detections
