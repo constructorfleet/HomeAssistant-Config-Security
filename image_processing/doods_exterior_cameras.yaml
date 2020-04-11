@@ -1,6 +1,6 @@
 platform: doods
 url: http://automation_obj_detection:8080
-scan_interval: 10
+scan_interval: 5
 timeout: 60
 detector: edgetpu
 source:
