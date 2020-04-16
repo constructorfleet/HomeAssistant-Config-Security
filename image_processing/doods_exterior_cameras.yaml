@@ -1,5 +1,5 @@
 platform: doods
-url: http://automation_obj_detection:8080
+url: http://inferance_doods:8080
 scan_interval: 5
 timeout: 60
 detector: edgetpu
