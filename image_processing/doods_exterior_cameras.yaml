@@ -1,6 +1,6 @@
 platform: doods
 url: http://inference_doods:8080
-scan_interval: 5
+scan_interval: 30
 timeout: 60
 detector: edgetpu
 source:
