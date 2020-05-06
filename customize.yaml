@@ -6,3 +6,5 @@ image_processing.doods_front_yard:
   friendly_name: Front Yard Detections
 image_processing.doods_front_driveway:
   friendly_name: Driveway Detections
+image_processing.doods_front_door:
+  friendly_name: Front Door Detections
