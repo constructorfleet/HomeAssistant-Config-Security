@@ -1,3 +1,0 @@
-platform: local_file
-name: Doorbell
-file_path: '/config/www/camera_snapshot/front_door_latest.jpg'

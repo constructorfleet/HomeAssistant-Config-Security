@@ -1,0 +1,3 @@
+platform: local_file
+name: Front Door Detections
+file_path: '/config/www/camera_snapshot/front_door_latest.jpg'
