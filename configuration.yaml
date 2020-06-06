@@ -26,7 +26,10 @@ config:
 
 stream:
 
-cover: !include_dir_list covers
+cover:
+  - platform: myq
+    username: !secret myq_username
+    password: !secret myq_password
 
 camera: !include_dir_list cameras
 alarm_control_panel: !include_dir_list alarm_control_panels
