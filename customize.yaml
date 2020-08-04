@@ -8,3 +8,5 @@ image_processing.doods_front_driveway:
   friendly_name: Driveway Detections
 image_processing.doods_front_door:
   friendly_name: Front Door Detections
+image_processing.doods_dance_studio_back_door:
+  friendly_name: Back Door Detections
