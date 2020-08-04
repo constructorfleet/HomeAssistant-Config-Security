@@ -1,0 +1,15 @@
+platform: doods
+url: http://inference_doods:8080
+scan_interval:
+  milliseconds: 5000
+timeout: 60
+detector: edgetpu
+source:
+  - entity_id: camera.dance_studio_back_door
+file_out:
+  - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
+confidence: 50
+labels:
+  - name: person
+    confidence: 70
+    confidence: 70
