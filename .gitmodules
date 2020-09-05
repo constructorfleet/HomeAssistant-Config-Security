@@ -4,3 +4,6 @@
 [submodule "custom_components/mqtteventstream"]
 	path = custom_components/mqtteventstream
 	url = https://github.com/constructorfleet/HomeAssistant-Component-MQTTEventStream.git
+[submodule "custom_components/unifiprotect"]
+	path = custom_components/unifiprotect
+	url = git@github.com:constructorfleet/HomeAssistant-Component-UnifiProtect.git
