@@ -27,12 +27,11 @@ config:
 stream:
 
 unifiprotect:
-  - host: 10.0.12.1
+  - host: https://10.0.12.1
     port: 443
     username: !secret unifi_username
     password: !secret unifi_password
     scan_interval: 5
-    snap_shot_direct: true
 
 # camera: !include_dir_list cameras
 # alarm_control_panel: !include_dir_list alarm_control_panels
