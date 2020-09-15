@@ -4,10 +4,10 @@ scan_interval: 30
 timeout: 60
 detector: edgetpu
 source:
-  - entity_id: camera.back_gate
-  - entity_id: camera.back_yard_west
-  - entity_id: camera.front_driveway
-  - entity_id: camera.front_yard
+  - entity_id: camera.camera_back_gate
+  - entity_id: camera.camera_back_yard_west
+  - entity_id: camera.camera_front_driveway
+  - entity_id: camera.camera_front_yard
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
 confidence: 50

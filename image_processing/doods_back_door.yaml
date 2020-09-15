@@ -5,7 +5,7 @@ scan_interval:
 timeout: 60
 detector: edgetpu
 source:
-  - entity_id: camera.dance_studio_back_door
+  - entity_id: camera.camera_dance_studio_overview
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
 confidence: 50

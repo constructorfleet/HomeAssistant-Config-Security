@@ -5,7 +5,7 @@ scan_interval:
 timeout: 60
 detector: edgetpu
 source:
-  - entity_id: camera.front_door
+  - entity_id: camera.camera_doorbell
 file_out:
   - "/config/www/camera_snapshot/{{ camera_entity.split('.')[1] }}_latest.jpg"
 confidence: 50
